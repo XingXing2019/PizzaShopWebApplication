@@ -25,10 +25,10 @@ namespace Shop.UI.Controllers
         public async Task<IActionResult> GetAllPizza() => Ok(await _pizzaService.GetAll());
 
         [HttpPost("pizza")]
-        public async Task<IActionResult> CreatePizza(PizzaViewModel vm) => Ok(await _pizzaService.Post(vm));
+        public async Task<IActionResult> CreatePizza([FromBody] PizzaViewModel vm) => Ok(await _pizzaService.Post(vm));
 
         [HttpPut("pizza")]
-        public async Task<IActionResult> UpdatePizza(PizzaViewModel vm) => Ok(await _pizzaService.Put(vm));
+        public async Task<IActionResult> UpdatePizza([FromBody] PizzaViewModel vm) => Ok(await _pizzaService.Put(vm));
 
         [HttpDelete("pizza")]
         public async Task<IActionResult> DeletePizza(int id) => Ok(await _pizzaService.Delete(id));
