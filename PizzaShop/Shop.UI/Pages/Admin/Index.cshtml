@@ -1,0 +1,55 @@
+﻿@page
+@model Shop.UI.Pages.Admin.IndexModel
+@{
+}
+
+<div id="app" class="container">
+    <form method="post">
+
+        <div class="field">
+            <label class="label">Pizza Name</label>
+            <div class="control">
+                <input class="input" v-model="pizzaModel.pizzaName" />
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Pizza Description</label>
+            <div class="control">
+                <input class="input" v-model="pizzaModel.pizzaDescription" />
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Pizza Small Image Path</label>
+            <div class="control">
+                <input class="input" v-model="pizzaModel.pizzaSmallImagePath" />
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Pizza Large Image Path</label>
+            <div class="control">
+                <input class="input" v-model="pizzaModel.pizzaLargeImagePath" />
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Pizza Price</label>
+            <div class="control">
+                <input class="input" v-model="pizzaModel.pizzaPrice" />
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Pizza Energy</label>
+            <div class="control">
+                <input class="input" v-model="pizzaModel.pizzaEnergy" />
+            </div>
+        </div>
+
+        <button class="button is-success" type="submit" asp-controller="Admin" asp-action="CreatePizza">Create Product</button>
+
+    </form>
+</div>
+
+
+@section Scripts
+{
+    <script src="~/js/admin/pizza.js"></script>
+}

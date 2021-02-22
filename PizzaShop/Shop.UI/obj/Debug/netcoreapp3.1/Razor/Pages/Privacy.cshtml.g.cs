@@ -26,15 +26,8 @@ using Shop.UI;
 #line default
 #line hidden
 #nullable disable
-#nullable restore
-#line 3 "F:\C#\Projects\PizzaShop\PizzaShop\Shop.UI\Pages\_ViewImports.cshtml"
-using Shop.UI.Data;
-
-#line default
-#line hidden
-#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a0906750319c55d6ce48b545e707c28c2eb4094c", @"/Pages/Privacy.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"34e1ea595582badfe9d57ccc1f01f14ad9b965ad", @"/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ef0a644b47874ddfa2b2fb0009955d0ecc39e0ec", @"/Pages/_ViewImports.cshtml")]
     public class Pages_Privacy : global::Microsoft.AspNetCore.Mvc.RazorPages.Page
     {
         #pragma warning disable 1998

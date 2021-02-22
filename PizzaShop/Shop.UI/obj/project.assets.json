@@ -549,6 +549,15 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "NLog/4.7.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/NLog.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {}
+        }
+      },
       "runtime.native.System/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1519,6 +1528,53 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "Shop.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "3.1.10",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.10",
+          "Shop.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Shop.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shop.Database.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Shop.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Shop.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shop.Domain.dll": {}
+        }
+      },
+      "Shop.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "NLog": "4.7.7",
+          "Shop.Database": "1.0.0",
+          "Shop.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Shop.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shop.Service.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -2454,6 +2510,39 @@
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
         "newtonsoft.json.12.0.2.nupkg.sha512",
         "newtonsoft.json.nuspec"
+      ]
+    },
+    "NLog/4.7.7": {
+      "sha512": "lCfAaKel4trne8Suf4/0aR9YPKDFLWKgqBupnHKNYx+cIjutF2BsVxfF2fAb+ObaYN3m5hDjx/ToVS15ouB+SA==",
+      "type": "package",
+      "path": "nlog/4.7.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid44/NLog.dll",
+        "lib/monoandroid44/NLog.xml",
+        "lib/net35/NLog.dll",
+        "lib/net35/NLog.xml",
+        "lib/net40-client/NLog.dll",
+        "lib/net40-client/NLog.xml",
+        "lib/net45/NLog.dll",
+        "lib/net45/NLog.xml",
+        "lib/netstandard1.3/NLog.dll",
+        "lib/netstandard1.3/NLog.xml",
+        "lib/netstandard1.5/NLog.dll",
+        "lib/netstandard1.5/NLog.xml",
+        "lib/netstandard2.0/NLog.dll",
+        "lib/netstandard2.0/NLog.xml",
+        "lib/sl4/NLog.dll",
+        "lib/sl4/NLog.xml",
+        "lib/sl5/NLog.dll",
+        "lib/sl5/NLog.xml",
+        "lib/wp8/NLog.dll",
+        "lib/wp8/NLog.xml",
+        "lib/xamarinios10/NLog.dll",
+        "lib/xamarinios10/NLog.xml",
+        "nlog.4.7.7.nupkg.sha512",
+        "nlog.nuspec"
       ]
     },
     "runtime.native.System/4.3.0": {
@@ -5685,6 +5774,21 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "Shop.Database/1.0.0": {
+      "type": "project",
+      "path": "../Shop.Database/Shop.Database.csproj",
+      "msbuildProject": "../Shop.Database/Shop.Database.csproj"
+    },
+    "Shop.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Shop.Domain/Shop.Domain.csproj",
+      "msbuildProject": "../Shop.Domain/Shop.Domain.csproj"
+    },
+    "Shop.Service/1.0.0": {
+      "type": "project",
+      "path": "../Shop.Service/Shop.Service.csproj",
+      "msbuildProject": "../Shop.Service/Shop.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5693,7 +5797,9 @@
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 3.1.10",
       "Microsoft.AspNetCore.Identity.UI >= 3.1.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.10",
-      "Microsoft.EntityFrameworkCore.Tools >= 3.1.10"
+      "Microsoft.EntityFrameworkCore.Tools >= 3.1.10",
+      "Shop.Database >= 1.0.0",
+      "Shop.Service >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5722,7 +5828,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\C#\\Projects\\PizzaShop\\PizzaShop\\Shop.Database\\Shop.Database.csproj": {
+              "projectPath": "F:\\C#\\Projects\\PizzaShop\\PizzaShop\\Shop.Database\\Shop.Database.csproj"
+            },
+            "F:\\C#\\Projects\\PizzaShop\\PizzaShop\\Shop.Service\\Shop.Service.csproj": {
+              "projectPath": "F:\\C#\\Projects\\PizzaShop\\PizzaShop\\Shop.Service\\Shop.Service.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

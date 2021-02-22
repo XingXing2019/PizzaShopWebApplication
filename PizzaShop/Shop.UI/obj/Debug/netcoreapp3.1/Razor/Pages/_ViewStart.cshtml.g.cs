@@ -26,15 +26,8 @@ using Shop.UI;
 #line default
 #line hidden
 #nullable disable
-#nullable restore
-#line 3 "F:\C#\Projects\PizzaShop\PizzaShop\Shop.UI\Pages\_ViewImports.cshtml"
-using Shop.UI.Data;
-
-#line default
-#line hidden
-#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Pages/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"34e1ea595582badfe9d57ccc1f01f14ad9b965ad", @"/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ef0a644b47874ddfa2b2fb0009955d0ecc39e0ec", @"/Pages/_ViewImports.cshtml")]
     public class Pages__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

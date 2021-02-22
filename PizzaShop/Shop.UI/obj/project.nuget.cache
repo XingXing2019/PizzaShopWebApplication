@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "m2K836agMxZNt+WkqU+QCKo2I0+5C4s6r5jkRgJsjTweO6+rWTUlsy7ug2eE6ejyN3ySfxIEPqKXLz+dlwCdlw==",
+  "dgSpecHash": "lP6CS+3bjaTho5eW4jvUHxf8wl7A2nPx2ouy1U093+a6LPwnvsQiZ3EdUJMqgLX4T2dyRJxdWW2/w9swUOLqBA==",
   "success": true,
   "projectFilePath": "F:\\C#\\Projects\\PizzaShop\\PizzaShop\\Shop.UI\\Shop.UI.csproj",
   "expectedPackageFiles": [
@@ -45,6 +45,7 @@
     "C:\\Users\\xxing\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\xxing\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\xxing\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\xxing\\.nuget\\packages\\nlog\\4.7.7\\nlog.4.7.7.nupkg.sha512",
     "C:\\Users\\xxing\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\xxing\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\xxing\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

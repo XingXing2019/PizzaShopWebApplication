@@ -90,3 +90,13 @@ F:\C#\Projects\PizzaShop\PizzaShop\Shop.UI\obj\Debug\netcoreapp3.1\Shop.UI.cspro
 F:\C#\Projects\PizzaShop\PizzaShop\Shop.UI\obj\Debug\netcoreapp3.1\Shop.UI.dll
 F:\C#\Projects\PizzaShop\PizzaShop\Shop.UI\obj\Debug\netcoreapp3.1\Shop.UI.pdb
 F:\C#\Projects\PizzaShop\PizzaShop\Shop.UI\obj\Debug\netcoreapp3.1\Shop.UI.genruntimeconfig.cache
+F:\C#\Projects\PizzaShop\PizzaShop\Shop.UI\bin\Debug\netcoreapp3.1\Shop.Domain.dll
+F:\C#\Projects\PizzaShop\PizzaShop\Shop.UI\bin\Debug\netcoreapp3.1\Shop.Service.dll
+F:\C#\Projects\PizzaShop\PizzaShop\Shop.UI\bin\Debug\netcoreapp3.1\Shop.Service.pdb
+F:\C#\Projects\PizzaShop\PizzaShop\Shop.UI\bin\Debug\netcoreapp3.1\Shop.Domain.pdb
+F:\C#\Projects\PizzaShop\PizzaShop\Shop.UI\bin\Debug\netcoreapp3.1\Shop.Database.dll
+F:\C#\Projects\PizzaShop\PizzaShop\Shop.UI\bin\Debug\netcoreapp3.1\Shop.Database.pdb
+F:\C#\Projects\PizzaShop\PizzaShop\Shop.UI\bin\Debug\netcoreapp3.1\NLog.dll
+F:\C#\Projects\PizzaShop\PizzaShop\Shop.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Index.cshtml.g.cs
+F:\C#\Projects\PizzaShop\PizzaShop\Shop.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\_AdminLayout.cshtml.g.cs
+F:\C#\Projects\PizzaShop\PizzaShop\Shop.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\_ViewStart.cshtml.g.cs

@@ -1,0 +1,9 @@
+F:\C#\Projects\PizzaShop\PizzaShop\Shop.Domain\bin\Debug\netcoreapp3.1\Shop.Domain.deps.json
+F:\C#\Projects\PizzaShop\PizzaShop\Shop.Domain\bin\Debug\netcoreapp3.1\Shop.Domain.dll
+F:\C#\Projects\PizzaShop\PizzaShop\Shop.Domain\bin\Debug\netcoreapp3.1\Shop.Domain.pdb
+F:\C#\Projects\PizzaShop\PizzaShop\Shop.Domain\obj\Debug\netcoreapp3.1\Shop.Domain.csprojAssemblyReference.cache
+F:\C#\Projects\PizzaShop\PizzaShop\Shop.Domain\obj\Debug\netcoreapp3.1\Shop.Domain.AssemblyInfoInputs.cache
+F:\C#\Projects\PizzaShop\PizzaShop\Shop.Domain\obj\Debug\netcoreapp3.1\Shop.Domain.AssemblyInfo.cs
+F:\C#\Projects\PizzaShop\PizzaShop\Shop.Domain\obj\Debug\netcoreapp3.1\Shop.Domain.csproj.CoreCompileInputs.cache
+F:\C#\Projects\PizzaShop\PizzaShop\Shop.Domain\obj\Debug\netcoreapp3.1\Shop.Domain.dll
+F:\C#\Projects\PizzaShop\PizzaShop\Shop.Domain\obj\Debug\netcoreapp3.1\Shop.Domain.pdb

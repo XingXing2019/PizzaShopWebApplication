@@ -1,0 +1,15 @@
+F:\C#\Projects\PizzaShop\PizzaShop\Shop.Database\bin\Debug\netcoreapp3.1\Shop.Database.deps.json
+F:\C#\Projects\PizzaShop\PizzaShop\Shop.Database\bin\Debug\netcoreapp3.1\Shop.Database.runtimeconfig.json
+F:\C#\Projects\PizzaShop\PizzaShop\Shop.Database\bin\Debug\netcoreapp3.1\Shop.Database.runtimeconfig.dev.json
+F:\C#\Projects\PizzaShop\PizzaShop\Shop.Database\bin\Debug\netcoreapp3.1\Shop.Database.dll
+F:\C#\Projects\PizzaShop\PizzaShop\Shop.Database\bin\Debug\netcoreapp3.1\Shop.Database.pdb
+F:\C#\Projects\PizzaShop\PizzaShop\Shop.Database\bin\Debug\netcoreapp3.1\Shop.Domain.dll
+F:\C#\Projects\PizzaShop\PizzaShop\Shop.Database\bin\Debug\netcoreapp3.1\Shop.Domain.pdb
+F:\C#\Projects\PizzaShop\PizzaShop\Shop.Database\obj\Debug\netcoreapp3.1\Shop.Database.csprojAssemblyReference.cache
+F:\C#\Projects\PizzaShop\PizzaShop\Shop.Database\obj\Debug\netcoreapp3.1\Shop.Database.AssemblyInfoInputs.cache
+F:\C#\Projects\PizzaShop\PizzaShop\Shop.Database\obj\Debug\netcoreapp3.1\Shop.Database.AssemblyInfo.cs
+F:\C#\Projects\PizzaShop\PizzaShop\Shop.Database\obj\Debug\netcoreapp3.1\Shop.Database.csproj.CoreCompileInputs.cache
+F:\C#\Projects\PizzaShop\PizzaShop\Shop.Database\obj\Debug\netcoreapp3.1\Shop.Database.csproj.CopyComplete
+F:\C#\Projects\PizzaShop\PizzaShop\Shop.Database\obj\Debug\netcoreapp3.1\Shop.Database.dll
+F:\C#\Projects\PizzaShop\PizzaShop\Shop.Database\obj\Debug\netcoreapp3.1\Shop.Database.pdb
+F:\C#\Projects\PizzaShop\PizzaShop\Shop.Database\obj\Debug\netcoreapp3.1\Shop.Database.genruntimeconfig.cache
