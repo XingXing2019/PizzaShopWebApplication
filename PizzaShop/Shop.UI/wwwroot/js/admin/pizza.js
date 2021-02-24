@@ -7,11 +7,11 @@
             id: 0,
             pizzaName: "AVOCADO VEG",
             pizzaDescription: "",
-            pizzaSmallImagePath: "",
-            pizzaLargeImagePath: "",
             pizzaPrice: 15.55,
             pizzaEnergy: 4432,
-        }
+            pizzaSmallImagePath: ""
+        },
+       
     },
     mounted() {
         this.getAllPizzas();
@@ -31,18 +31,7 @@
                     this.loading = false;
                 });
         },
-        createPizza() {
-            axios.post('/Admin/pizza', this.pizzaModel)
-                .then(res => {
-                    console.log(res);
-                    this.pizzas.push(res.data);
-                })
-                .catch(err => {
-                    console.log(err);
-                })
-                .then(() => {
-                    this.loading = false;
-                });
-        }
+        
+        
     }
 })

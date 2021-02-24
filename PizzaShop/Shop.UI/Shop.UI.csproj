@@ -19,8 +19,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="wwwroot\img\PizzaSlice\" />
+    <Folder Include="wwwroot\img\PizzaWhole\" />
     <Folder Include="wwwroot\lib\" />
-    <Folder Include="wwwroot\image\" />
+    <Folder Include="wwwroot\img\" />
   </ItemGroup>
 
 </Project>

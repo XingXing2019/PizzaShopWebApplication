@@ -1,51 +1,67 @@
 ﻿@page
-@model Shop.UI.Pages.Admin.IndexModel
+@model Shop.Domain.ViewModels.PizzaViewModel
 @{
 }
 
 <div id="app" class="container">
-    <form method="post">
 
-        <div class="field">
-            <label class="label">Pizza Name</label>
-            <div class="control">
-                <input class="input" v-model="pizzaModel.pizzaName" />
-            </div>
-        </div>
-        <div class="field">
-            <label class="label">Pizza Description</label>
-            <div class="control">
-                <input class="input" v-model="pizzaModel.pizzaDescription" />
-            </div>
-        </div>
-        <div class="field">
-            <label class="label">Pizza Small Image Path</label>
-            <div class="control">
-                <input class="input" v-model="pizzaModel.pizzaSmallImagePath" />
-            </div>
-        </div>
-        <div class="field">
-            <label class="label">Pizza Large Image Path</label>
-            <div class="control">
-                <input class="input" v-model="pizzaModel.pizzaLargeImagePath" />
-            </div>
-        </div>
-        <div class="field">
-            <label class="label">Pizza Price</label>
-            <div class="control">
-                <input class="input" v-model="pizzaModel.pizzaPrice" />
-            </div>
-        </div>
-        <div class="field">
-            <label class="label">Pizza Energy</label>
-            <div class="control">
-                <input class="input" v-model="pizzaModel.pizzaEnergy" />
+    <form enctype="multipart/form-data" asp-controller="Admin" asp-action="CreatePizza" method="post">
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label" asp-for="PizzaName">Pizza Name</label>
+            <div class="col-sm-10">
+                <input class="form-control" placeholder="Plese input name" asp-for="PizzaName" />
+                <span asp-validation-for="PizzaName" class="text-danger"></span>
             </div>
         </div>
 
-        <button class="button is-success" @@click="createPizza">Create Product</button>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label" asp-for="PizzaDescription">Pizza Description</label>
+            <div class="col-sm-10">
+                <input class="form-control" placeholder="Plese input name" asp-for="PizzaDescription" />
+                <span asp-validation-for="PizzaDescription" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label" asp-for="PizzaEnergy">Pizza Energy</label>
+            <div class="col-sm-10">
+                <input class="form-control" placeholder="Plese input name" asp-for="PizzaEnergy" />
+                <span asp-validation-for="PizzaEnergy" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label" asp-for="PizzaPrice">Pizza Price</label>
+            <div class="col-sm-10">
+                <input class="form-control" placeholder="Plese input name" asp-for="PizzaPrice" />
+                <span asp-validation-for="PizzaPrice" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label" asp-for="PizzaSmallImage">Pizza Small Image</label>
+            <div class="col-sm-10">
+                <div class="custom-file">
+                    <input class="form-control custom-file-input" asp-for="PizzaSmallImage" multiple/>
+                    <label class="custom-file-label">Please select photo</label>
+                </div>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label" asp-for="PizzaLargeImage">Pizza Large Image</label>
+            <div class="col-sm-10">
+                <div class="custom-file">
+                    <input class="form-control custom-file-input" asp-for="PizzaLargeImage" multiple/>
+                    <label class="custom-file-label">Please select photo</label>
+                </div>
+            </div>
+        </div>
+
+        <button class="btn btn-danger" type="submit">Create Product</button>
 
     </form>
+
 </div>
 
 
